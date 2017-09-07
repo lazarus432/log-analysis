@@ -16,7 +16,7 @@ request are greater than 1%.
 
 #Created Views
 
-##Question 1
+## 1
 
 
 ###Gather important information from log table
@@ -51,7 +51,7 @@ WHERE authorview.path = articles.slug
 ORDER BY num desc limit 3;`
 
 
-##Question 2
+## 2
 
 ###QUESTION 2 FINAL
 
@@ -62,7 +62,7 @@ GROUP BY authorview.name
 ORDER BY views desc;`
 
 
-##Question 3
+## 3
 
 ###Total requests separated by dates
 
